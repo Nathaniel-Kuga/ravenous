@@ -5,16 +5,17 @@ import React from 'react';
 //     image:
 // };
 
-function Business() {
+function Business(business) {
     return (
         <div className="business">
-            <img src="restaurant-image.jpg" alt="Restaurant" />
-            <h2>Restaurant Name</h2>
-            <p>123 Main St</p>
-            <p>City, State 12345</p>
-            <p>Category: Italian</p>
-            <p>Rating: 4.5 stars</p>
-            <p>Reviews: 123</p>
+            <img src={business.image} alt="Restaurant" />
+            <h2>{business.name}</h2>
+            <p>{business.address}</p>
+            <p>{business.city}</p>
+            <p>{business.zipcode}</p>
+            <p>{business.category}</p>
+            <p>{business.rating}</p>
+            <p>{business.reviewCount}</p>
         </div>
     );
 }
