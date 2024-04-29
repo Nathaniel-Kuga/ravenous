@@ -1,3 +1,21 @@
+# This is a practice project for Codecademy's React course.
+
+### Technologies used
+<ul>
+    <li>Javascript</li>
+    <li>React</li>
+    <li>Html</li>
+    <li>CSS</li>
+    <li>VS Code</li>
+    <li>Yelp API</li>
+</ul>
+
+### Features
+- The website allows users to scroll up and down to navigate through its content.
+- Users can simulate a search by typing in the search bar
+- A list of mock restaurant data is presented to the user.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
